@@ -1,0 +1,1 @@
+"use srict"; //treat all JS code as newer version
