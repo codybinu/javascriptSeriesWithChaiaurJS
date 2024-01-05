@@ -23,3 +23,9 @@ console.log(myCreatedDateWithFormat.toLocaleString()); //output: 1/23/2024, 5:30
 let myTimeStamp = Date.now()
 console.log(myTimeStamp)
 console.log(myCreatedDate.getTime())
+
+let newDate = new Date()
+
+console.log(newDate.toLocaleString('default', {
+    weekday: "long"
+}))
