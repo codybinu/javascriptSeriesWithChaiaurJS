@@ -32,3 +32,16 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedin'));
+
+
+const course = {
+    coursename : 'Physics',
+    duration : '6 months',
+    skills : ['maths','physics'],
+    isEnrolled : true
+}
+
+const {coursename,duration: timeperiod,skills,isEnrolled} = course //destructuring
+
+
+console.log(timeperiod);
