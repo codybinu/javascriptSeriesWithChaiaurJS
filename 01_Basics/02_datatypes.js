@@ -5,12 +5,12 @@
 // datatypes
     //primitive datatypes
         //number => range 2 to power 53
-        //bigint
+        //bigint => used for big numbers
         //sting => ""
         //boolean => true/false
-        //null => standalone value
+        //null => standalone value [can be directly assigned to a variable]
         //undefined => no value assigned
-        //symbol => unique
+        //symbol => unique [ex: refer to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol]
         
 
         //object
