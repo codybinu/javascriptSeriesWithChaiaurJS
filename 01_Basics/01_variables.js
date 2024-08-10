@@ -4,7 +4,7 @@ var accountPassword = '12345'
 accountCity = 'Bhubaneswar'
 let accountState;
 
-// accountId = 2;
+// accountId = 2; //reassignment of a const variable is not allowed.
 
 accountEmail = "bb@bb.com"
 accountPassword = '67890'
