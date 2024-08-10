@@ -2,27 +2,29 @@ let score = "33wer"
 
 // console.log(typeof score)
 
-let valueInNumber = Number(score);
+let valueInNumber = Number(score); //converting to number
 
 // console.log(valueInNumber);
 // console.log(typeof valueInNumber)
 
-
+//convertion results to number written below.
 //"33" => 33
 //"33abs" => NaN
 // true => 1; false => 0
+//NaN => is a number type in JS.
 
 let isLoggedIn = 1
-let booleanIsLoggedIn = Boolean(isLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn); //converting to Boolean
 // console.log(booleanIsLoggedIn)
 
+//convertion results to Boolean written below.
 // 1=> true; 0=>false
 //""=> false
 //"Binayak" => true
 
 let someNumber = 33
 
-let stringNumber = String(someNumber)
+let stringNumber = String(someNumber) //converting to String
 // console.log(stringNumber)
 // console.log(typeof stringNumber);
 
