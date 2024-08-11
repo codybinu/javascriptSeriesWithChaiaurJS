@@ -62,8 +62,8 @@ const myFunction = function(){
     let anotherName = myCodingName
 
     anotherName = "bincypher"
-    console.log(`My Coding Name is ${myCodingName}`);
-    console.log(`My another Name is ${anotherName}`);
+    console.log(`My Coding Name is ${myCodingName}`); //returns: My Coding Name is codybinu
+    console.log(`My another Name is ${anotherName}`); //returns: My another Name is bincypher
 
     let userOne = {
         email : "brb@bb.com",
@@ -74,5 +74,5 @@ const myFunction = function(){
 
     userTwo.email = "rte@bb.com"
 
-    console.log(userOne.email);
-    console.log(userTwo.email);
+    console.log(userOne.email); //returns: rte@bb.com
+    console.log(userTwo.email); //returns: rte@bb.com
