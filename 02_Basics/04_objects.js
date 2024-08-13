@@ -44,4 +44,4 @@ const course = {
 const {coursename,duration: timeperiod,skills,isEnrolled} = course //destructuring
 
 
-console.log(timeperiod);
+console.log(timeperiod); 
