@@ -42,6 +42,6 @@ const course = {
 }
 
 const {coursename,duration: timeperiod,skills,isEnrolled} = course //destructuring
+//make sure the name of the variable should be same as the course object while trying to  destructuring them.
 
-
-console.log(timeperiod); 
+console.log(timeperiod); //output: 6 months
