@@ -10,7 +10,7 @@ function addTwoNumbers(one,two){
 
 const result = addTwoNumbers(3,4)
 
-console.log("Result: ",result); //output: Result:  7
+// console.log("Result: ",result); //output: Result:  7
 
  /*For the above example
  addTwoNumbers --> function reference
@@ -32,5 +32,29 @@ function loginUserMessage(username = "sam") { //Here sam is the predefined/defau
     
 }
 
-console.log(loginUserMessage()); //output: sam just loggedin
-console.log(loginUserMessage("Binayak")) //output: Binayak just loggedin
+// console.log(loginUserMessage()); //output: sam just loggedin
+// console.log(loginUserMessage("Binayak")) //output: Binayak just loggedin
+
+
+function calculateCartPrice(...prices) { //"..." called as Rest operator.
+  return prices;
+}
+
+console.log(calculateCartPrice(100,400,399,477)); //output: [ 100, 400, 399, 477 ]
+
+const user ={
+  username: 'Binayak',
+  price: 279
+}
+
+function handleObjet(anyObject){
+  console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+handleObjet(user); //output: Username is Binayak and price is 279
+
+const myNewArray = [200,300,488.279];
+function returnSecondValue(getArray){
+  return getArray[1];
+}
+console.log(returnSecondValue(myNewArray)); //output: 300
