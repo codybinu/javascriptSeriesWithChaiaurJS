@@ -15,7 +15,7 @@ while (arr < myArray.length) {
     arr = arr + 1
 }
 
-let score = 11
+let score = 12
 
 do {
     console.log(`Score is ${score}`);
